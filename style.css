@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   transition: background-image 0.2s ease;
+  cursor: url("Images_et_Documents/cursor.png"), auto;
 }
 
 body:hover {
@@ -55,6 +56,10 @@ h3 {
 p {
   margin: 0px;
   color: #d2b681;
+}
+
+a, .cell {
+  cursor: url("Images_et_Documents/Cursor_hover.png"), auto;
 }
 
 header {
@@ -342,6 +347,7 @@ button {
 
 button:hover {
   background-color: #efd8ad;
+  cursor: url("Images_et_Documents/Cursor_hover.png"), auto;
 }
 
 footer button.active {
