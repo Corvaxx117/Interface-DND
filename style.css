@@ -13,7 +13,7 @@ body {
   background-size: cover; /* L'image couvre toute la zone */
   background-position: center; /* L'image est centrée */
   background-repeat: no-repeat; /* L'image ne se répète pas */
-  background-blend-mode: overlay; /* Mélange le fond noir avec l'image */
+  background-blend-mode: overlay; /* Mélange le fond noir avec l'image */  
 }
 
 h1 {
