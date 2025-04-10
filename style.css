@@ -10,11 +10,11 @@ body {
 
   background-image:
     radial-gradient(
-      circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-      rgba(77, 14, 68, 0.565),
-      rgba(116, 67, 67, 0.616)
+      circle at var(--mouse-x, 10%) var(--mouse-y, 10%),
+      rgba(77, 14, 68, 0),
+      rgba(116, 67, 67, 0)
     ),
-    url("Documents/Forest-background.jpg");
+    url("Images_et_Documents/Forest-background.jpg");
 
   background-color: rgba(4, 6, 26, 0.5); /* Couleur de fond de base */
   background-size: cover;
@@ -27,11 +27,11 @@ body {
 body:hover {
   background-image:
     radial-gradient(
-      circle at var(--mouse-x, 90%) var(--mouse-y, 90%),
-      rgba(246, 246, 246, 0.722),
-      rgba(180, 100, 152, 0.799)
+      circle at var(--mouse-x, 10%) var(--mouse-y, 10%),
+      rgb(246, 246, 246),
+      rgba(180, 100, 152, 0)
     ),
-    url("Documents/Forest-background.jpg");
+    url("Images_et_Documents/Forest-background.jpg");
 }
 
 h1 {
