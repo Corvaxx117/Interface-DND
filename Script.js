@@ -1,3 +1,11 @@
+document.addEventListener("mousemove", function (e) {
+  let x = (e.clientX / window.innerWidth) * 100;
+  let y = (e.clientY / window.innerHeight) * 100;
+
+  document.documentElement.style.setProperty("--mouse-x", x + "%");
+  document.documentElement.style.setProperty("--mouse-y", y + "%");
+});
+
 // Définition des formules de dégâts pour chaque arme
 const calculs = {
   arc: (values) => {
@@ -105,7 +113,9 @@ function mettreAJourCerclesSorts() {
 
   // Met à jour l'affichage des sorts restants
   const sortsRestants = sortsMax[personnage] - sortsUtilises;
-  document.getElementById("sorts-restants").textContent = `Sorts restants : ${sortsRestants}`;
+  document.getElementById(
+    "sorts-restants"
+  ).textContent = `Sorts restants : ${sortsRestants}`;
 
   // Désactive ou réactive les cellules de sorts en fonction des sorts restants
   if (sortsRestants === 0) {
@@ -123,7 +133,8 @@ document.addEventListener("DOMContentLoaded", () => {
 // Sélection de toutes les cellules cliquables
 document.querySelectorAll(".cell").forEach((cell) => {
   cell.addEventListener("click", () => {
-    const weaponOrSpell = cell.getAttribute("data-weapon") || cell.getAttribute("data-spell"); // Récupère l'arme ou le sort
+    const weaponOrSpell =
+      cell.getAttribute("data-weapon") || cell.getAttribute("data-spell"); // Récupère l'arme ou le sort
     const diceType = cell.getAttribute("data-dice"); // Récupère le type de dé (ex: D20, D12)
     const value = parseInt(cell.textContent, 10); // Récupère la valeur de la cellule
 
@@ -135,7 +146,9 @@ document.querySelectorAll(".cell").forEach((cell) => {
 
       // Réinitialise les styles des cellules précédentes
       document
-        .querySelectorAll(`.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`)
+        .querySelectorAll(
+          `.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`
+        )
         .forEach((c) => {
           c.classList.remove("previous"); // Supprime la classe CSS pour les cellules précédentes
         });
@@ -144,13 +157,16 @@ document.querySelectorAll(".cell").forEach((cell) => {
       totalDegats = 0;
 
       // Réinitialise les résultats individuels
-      document.getElementById(`result-${weaponOrSpell}`).textContent = "Dégâts : 0";
+      document.getElementById(`result-${weaponOrSpell}`).textContent =
+        "Dégâts : 0";
 
       // Recalcule les dégâts pour toutes les cellules actives restantes
       const activeValuesByWeaponOrSpell = {};
 
       document.querySelectorAll(".cell.active").forEach((activeCell) => {
-        const activeWeaponOrSpell = activeCell.getAttribute("data-weapon") || activeCell.getAttribute("data-spell");
+        const activeWeaponOrSpell =
+          activeCell.getAttribute("data-weapon") ||
+          activeCell.getAttribute("data-spell");
         const activeDiceType = activeCell.getAttribute("data-dice");
         const activeValue = parseInt(activeCell.textContent, 10);
 
@@ -162,15 +178,20 @@ document.querySelectorAll(".cell").forEach((cell) => {
           activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] = 0;
         }
 
-        activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] += activeValue;
+        activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] +=
+          activeValue;
       });
 
       // Calcule les dégâts totaux pour chaque arme ou sort
-      for (const [weaponOrSpell, diceValues] of Object.entries(activeValuesByWeaponOrSpell)) {
+      for (const [weaponOrSpell, diceValues] of Object.entries(
+        activeValuesByWeaponOrSpell
+      )) {
         const result = calculs[weaponOrSpell](diceValues);
 
         // Met à jour le résultat individuel
-        document.getElementById(`result-${weaponOrSpell}`).textContent = `Dégâts : ${result}`;
+        document.getElementById(
+          `result-${weaponOrSpell}`
+        ).textContent = `Dégâts : ${result}`;
 
         // Ajoute au total général
         totalDegats += result;
@@ -184,7 +205,9 @@ document.querySelectorAll(".cell").forEach((cell) => {
 
     // Réinitialise les styles des cellules pour le même type de dé
     document
-      .querySelectorAll(`.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`)
+      .querySelectorAll(
+        `.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`
+      )
       .forEach((c) => {
         c.classList.remove("active");
         c.classList.remove("previous"); // Supprime la classe CSS pour les cellules précédentes
@@ -196,7 +219,9 @@ document.querySelectorAll(".cell").forEach((cell) => {
     // Applique la classe CSS pour les cellules précédentes
     let previous = true;
     document
-      .querySelectorAll(`.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`)
+      .querySelectorAll(
+        `.cell[data-weapon="${weaponOrSpell}"][data-dice="${diceType}"], .cell[data-spell="${weaponOrSpell}"][data-dice="${diceType}"]`
+      )
       .forEach((c) => {
         if (previous) {
           c.classList.add("previous"); // Ajoute la classe CSS pour les cellules précédentes
@@ -211,7 +236,9 @@ document.querySelectorAll(".cell").forEach((cell) => {
     const activeValuesByWeaponOrSpell = {};
 
     document.querySelectorAll(".cell.active").forEach((activeCell) => {
-      const activeWeaponOrSpell = activeCell.getAttribute("data-weapon") || activeCell.getAttribute("data-spell");
+      const activeWeaponOrSpell =
+        activeCell.getAttribute("data-weapon") ||
+        activeCell.getAttribute("data-spell");
       const activeDiceType = activeCell.getAttribute("data-dice");
       const activeValue = parseInt(activeCell.textContent, 10);
 
@@ -223,15 +250,20 @@ document.querySelectorAll(".cell").forEach((cell) => {
         activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] = 0;
       }
 
-      activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] += activeValue;
+      activeValuesByWeaponOrSpell[activeWeaponOrSpell][activeDiceType] +=
+        activeValue;
     });
 
     // Calcule les dégâts totaux pour chaque arme ou sort
-    for (const [weaponOrSpell, diceValues] of Object.entries(activeValuesByWeaponOrSpell)) {
+    for (const [weaponOrSpell, diceValues] of Object.entries(
+      activeValuesByWeaponOrSpell
+    )) {
       const result = calculs[weaponOrSpell](diceValues);
 
       // Met à jour le résultat individuel
-      document.getElementById(`result-${weaponOrSpell}`).textContent = `Dégâts : ${result}`;
+      document.getElementById(
+        `result-${weaponOrSpell}`
+      ).textContent = `Dégâts : ${result}`;
 
       // Ajoute au total général
       totalDegats += result;
