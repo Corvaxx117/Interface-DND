@@ -6,14 +6,33 @@ body {
   width: 100%;
   height: 100vh;
   flex-wrap: wrap;
-  flex-direction: column; /* Organise les enfants verticalement */
-  height: 100vh; /* Prend toute la hauteur du viewport */
-  background-color: rgba(4, 6, 26, 0.5); /* Fond noir à 50% de transparence */
-  background-image: url("Images_et_Documents/Forest-background.jpg"); /* Chemin relatif à votre fichier CSS */
-  background-size: cover; /* L'image couvre toute la zone */
-  background-position: center; /* L'image est centrée */
-  background-repeat: no-repeat; /* L'image ne se répète pas */
-  background-blend-mode: overlay; /* Mélange le fond noir avec l'image */  
+  flex-direction: column;
+
+  background-image:
+    radial-gradient(
+      circle at var(--mouse-x, 10%) var(--mouse-y, 10%),
+      rgba(77, 14, 68, 0),
+      rgba(116, 67, 67, 0)
+    ),
+    url("Images_et_Documents/Forest-background.jpg");
+
+  background-color: rgba(4, 6, 26, 0.5); /* Couleur de fond de base */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  transition: background-image 0.2s ease;
+  cursor: url("Images_et_Documents/cursor.png"), auto;
+}
+
+body:hover {
+  background-image:
+    radial-gradient(
+      circle at var(--mouse-x, 10%) var(--mouse-y, 10%),
+      rgb(246, 246, 246),
+      rgba(180, 100, 152, 0)
+    ),
+    url("Images_et_Documents/Forest-background.jpg");
 }
 
 h1 {
@@ -37,6 +56,10 @@ h3 {
 p {
   margin: 0px;
   color: #d2b681;
+}
+
+a, .cell {
+  cursor: url("Images_et_Documents/Cursor_hover.png"), auto;
 }
 
 header {
@@ -324,6 +347,7 @@ button {
 
 button:hover {
   background-color: #efd8ad;
+  cursor: url("Images_et_Documents/Cursor_hover.png"), auto;
 }
 
 footer button.active {
