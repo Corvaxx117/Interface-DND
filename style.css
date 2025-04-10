@@ -9,7 +9,7 @@ body {
   flex-direction: column; /* Organise les enfants verticalement */
   height: 100vh; /* Prend toute la hauteur du viewport */
   background-color: rgba(4, 6, 26, 0.5); /* Fond noir à 50% de transparence */
-  background-image: url("Documents/Forest-background.jpg"); /* Chemin relatif à votre fichier CSS */
+  background-image: url("Images_et_Documents/Forest-background.jpg"); /* Chemin relatif à votre fichier CSS */
   background-size: cover; /* L'image couvre toute la zone */
   background-position: center; /* L'image est centrée */
   background-repeat: no-repeat; /* L'image ne se répète pas */
