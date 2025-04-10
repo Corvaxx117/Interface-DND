@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramètres des Armes</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h2>Modifier les Armes</h2>
+    <ul id="weapon-list"></ul>
+    
+    <h3>Ajouter une Nouvelle Arme</h3>
+    <input type="text" id="weapon-name" placeholder="Nom de l'arme">
+    <input type="text" id="weapon-formula" placeholder="Formule (ex: x * 4 + 15)">
+    <button onclick="addWeapon()">Ajouter</button>
+
+    <script>
+        function displayWeapons() {
+            const list = document.getElementById("weapon-list");
+            list.innerHTML = ""; // Efface la liste
+            weapons.forEach((weapon, index) => {
+                const li = document.createElement("li");
+                li.innerHTML = `${weapon.name} - ${weapon.formula} 
+                <button onclick="removeWeapon(${index})">Supprimer</button>`;
+                list.appendChild(li);
+            });
+        }
+
+        function addWeapon() {
+            const name = document.getElementById("weapon-name").value;
+            const formula = document.getElementById("weapon-formula").value;
+            if (name && formula) {
+                weapons.push({ name, formula });
+                saveWeapons(weapons);
+                displayWeapons();
+            }
+        }
+
+        function removeWeapon(index) {
+            weapons.splice(index, 1);
+            saveWeapons(weapons);
+            displayWeapons();
+        }
+
+        // Charger les armes à l’ouverture de la page
+        displayWeapons();
+    </script>
+</body>
+</html>

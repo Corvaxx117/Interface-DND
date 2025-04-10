@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica", sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column; /* Organise les enfants verticalement */
+  height: 100vh; /* Prend toute la hauteur du viewport */
+}
+
+h1 {
+  color: #000000;
+  font-family: cursive;
+  margin: 0px;
+}
+
+h2 {
+  color: #132743;
+  margin: 0px;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0px;
+  font-size: 16px;
+}
+
+p {
+  margin: 0px;
+}
+
+header {
+  order: 0;
+  display: flex;
+  align-items: center; /* Centre le contenu verticalement */
+  align-self: stretch;
+  width: 100vw; /* Prend tout l'espace horizontalement dans le viewport */
+  height: fit-content;
+  padding: 16px 24px;
+  flex-shrink: 0; /* Empêche le header de rétrécir */
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur totale */
+  gap: 24px;
+}
+
+header h1 {
+  color: #d2b681;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center; /* Centre le texte horizontalement */
+  margin: 0px;
+  width: 128px;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  justify-content: center; /* Centre la nav bar horizontalement */
+  padding-right: 152px;
+  flex-direction: row; /* Aligne les éléments horizontalement */
+  align-items: center;
+  flex: 1 0 0;
+  width: 100%; /* Prend toute la largeur disponible */
+}
+
+nav ul {
+  display: flex; /* Aligne les éléments de la liste horizontalement */
+  gap: 8px; /* Ajoute un espace entre les éléments */
+  justify-content: center; /* Centre les éléments dans la liste */
+  margin: 0 auto; /* Centre la liste dans le viewport */
+}
+
+nav li {
+  border-top: 3px solid #d2b681;
+  display: inline-block;
+  text-align: center;
+}
+
+nav a {
+  display: flex; /* Permet de centrer le texte verticalement */
+  align-items: center; /* Centre le texte verticalement */
+  justify-content: center; /* Centre le texte horizontalement */
+  text-transform: uppercase;
+  line-height: 60px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: #766d67;
+  font-size: 0.9em;
+  letter-spacing: 0.4em;
+  font-family: Prata;
+  font-weight: 300;
+  width: 144px;
+  height: 60px; /* Définit une hauteur fixe pour tous les liens */
+  box-sizing: border-box; /* Inclut la bordure dans la hauteur totale */
+}
+
+nav li a.visited,
+nav li:hover a {
+  border-top: 4px solid #d2b681;
+  color: #6e4628;
+  font-weight: 900;
+  height: 60px; /* Assure que la hauteur reste fixe même avec la bordure */
+  box-sizing: border-box; /* Inclut la bordure dans la hauteur totale */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corps de la page */
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px 24px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+aside {
+  display: flex;
+  width: 288px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  background: rgba(0, 0, 0, 0.05);
+  order: 1;
+}
+
+aside img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover; /* Remplit le container sans déformation, recadre si nécessaire */
+}
+
+.character-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+}
+
+/* Styles pour les cercles représentant les emplacements de sorts */
+.sorts-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.sort-circle {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #d2b681;
+  border-radius: 50%;
+  background-color: #d2b681; /* Par défaut, rempli */
+  transition: background-color 0.3s ease;
+}
+
+.sort-circle.filled {
+  background-color: #d2b681; /* Rempli */
+}
+
+.sort-circle:not(.filled) {
+  background-color: white; /* Vide */
+}
+
+/* Style pour la section principales */
+section {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: rgba(0, 0, 0, 0.05);
+  order: 2;
+}
+
+.attack-type {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+}
+
+section h2 {
+  padding-bottom: 8px;
+  box-shadow: inset 0 -1px 0 0 #000000;
+  width: 100%;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.result {
+  font-size: 19px;
+}
+
+.dice-container {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius:8px;
+  width: 100%;
+}
+
+/* Style pour les tableaux */
+table {
+  width:fit-content;
+  table-layout: fixed;
+  border-collapse: separate; /* Permet de séparer les bordures des cellules */
+  border-spacing: 0; /* Supprime l'espace entre les cellules */
+  border: 2px solid #d2b681; /* Bordure externe du tableau */
+  border-radius: 8px; /* Arrondit les coins externes du tableau */
+  overflow: visible; /* Assure que les coins arrondis sont respectés */
+}
+
+td {
+  border: 0; /* Supprime la bordure par défaut */
+  border-right: 1px solid #d2b681; /* Garde la bordure droite entre les cellules */
+  height: 40px;
+  width: 73px!important; /* Divise la largeur totale par 20 pour uniformiser */
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box; /* Assure que les dimensions incluent la bordure */
+}
+
+td:first-child {
+  border-top-left-radius: 8px; /* Arrondit le coin supérieur gauche */
+  border-bottom-left-radius: 8px; /* Arrondit le coin inférieur gauche */
+}
+
+td:last-child {
+  border-top-right-radius: 8px; /* Arrondit le coin supérieur droit */
+  border-bottom-right-radius: 8px; /* Arrondit le coin inférieur droit */
+  border-right: none; /* Supprime la bordure droite */
+}
+
+td.active {
+  background-color: #d2b681 !important;
+  border-radius: 6px;
+  box-sizing: border-box; /* Assure que les dimensions incluent le padding */
+  outline: 3px solid #866e40; /* Utilise outline pour la bordure extérieure */
+  position: relative; /* Nécessaire pour un comportement correct */
+  color: black; /* Change la couleur du texte en blanc */
+  font-weight: bold; /* Rend le texte en gras */
+}
+
+/* Style pour le footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  gap: 24px;
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur totale */
+  background-color: #ffffff;
+  order: 5;
+  flex-shrink: 0; /* Empêche le footer de rétrécir */
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  padding-top: 26px;
+  gap: 8px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #866e40;
+  background-color: transparent; /* Fond transparent */
+  border: 2px solid #866e40;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #efd8ad;
+}
+
+footer button.active {
+  background-color: #d2b681; /* Couleur de fond pour l'état actif */
+  color: white; /* Couleur du texte pour l'état actif */
+  border-color: #d2b681; /* Bordure assortie à la couleur de fond */
+}
+
+.total {
+  width: 240px;
+  height: auto;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 19px;
+}
+
+

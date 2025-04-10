@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Interactif D&D</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h2>Tableau des Dégâts</h2>
+    <a href="parametres.html">Modifier les armes</a>
+    <table id="weapon-table">
+        <thead>
+            <tr>
+                <th>Arme</th>
+                <th colspan="20">Valeurs</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script>
+        function calculateDamage(formula, x) {
+            return eval(formula.replace("x", x));
+        }
+
+        function buildTable() {
+            const tableBody = document.getElementById("table-body");
+            tableBody.innerHTML = ""; // Effacer le tableau existant
+
+            weapons.forEach(weapon => {
+                const row = document.createElement("tr");
+                const nameCell = document.createElement("td");
+                nameCell.textContent = weapon.name;
+                row.appendChild(nameCell);
+
+                for (let i = 1; i <= 20; i++) {
+                    const cell = document.createElement("td");
+                    cell.textContent = i;
+                    cell.addEventListener("click", () => {
+                        const result = calculateDamage(weapon.formula, i);
+                        document.getElementById(`result-${weapon.name}`).textContent = `Dégâts (${weapon.name} avec ${i}) : ${result}`;
+                    });
+                    row.appendChild(cell);
+                }
+
+                tableBody.appendChild(row);
+
+                // Ajouter une ligne pour afficher le résultat
+                const resultRow = document.createElement("tr");
+                const resultCell = document.createElement("td");
+                resultCell.colSpan = 21;
+                resultCell.className = "result";
+                resultCell.id = `result-${weapon.name}`;
+                resultRow.appendChild(resultCell);
+                tableBody.appendChild(resultRow);
+            });
+        }
+
+        // Recréer le tableau après chargement des armes
+        buildTable();
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion des Personnages</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="gestion.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Gestion des Personnages</h1>
+        <nav>
+            <ul>
+                <li><a href="Aodhan.html">Aodhan</a></li>
+                <li><a href="Mival.html">Mival</a></li>
+                <li><a href="Pavel.html">Pavel</a></li>
+                <li><a href="Thorek.html">Thorek</a></li>
+                <li><a href="Zinok.html">Zinok</a></li>
+                <li><a href="autres.html">Autres</a></li>
+                <li><a href="gestion.html" class="visited">Gestion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Configurer les Personnages</h2>
+        <form id="gestion-form">
+            <label for="character">Personnage :</label>
+            <select id="character" name="character">
+                <option value="Aodhan">Aodhan</option>
+                <option value="Mival">Mival</option>
+                <option value="Pavel">Pavel</option>
+                <option value="Thorek">Thorek</option>
+                <option value="Zinok">Zinok</option>
+            </select>
+
+            <h3>Armes</h3>
+            <div id="armes-container"></div>
+
+            <h3>Sorts</h3>
+            <div id="sorts-container"></div>
+
+            <button type="submit">Enregistrer</button>
+        </form>
+    </main>
+</body>
+
+</html>
