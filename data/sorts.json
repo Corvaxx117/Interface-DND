@@ -1,0 +1,11 @@
+[
+  {
+    "id": "boule-de-feu",
+    "nom": "Boule de feu",
+    "formule": "4D6+25",
+    "type": "sort",
+    "des": {
+      "D6": 6
+    }
+  }
+]

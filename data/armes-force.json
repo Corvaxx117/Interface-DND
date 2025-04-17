@@ -1,0 +1,1246 @@
+[
+  {
+    "id": "gourdin-commun",
+    "nom": "Gourdin commun",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "marteau-leger-commun",
+    "nom": "Marteau léger commun",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "fouet-commun",
+    "nom": "Fouet commun",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "gourdin-nain",
+    "nom": "Gourdin nain",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "marteau-leger-humain",
+    "nom": "Marteau léger humain",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fouet-de-bourreau",
+    "nom": "Fouet de bourreau",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fouet-de-cuir",
+    "nom": "Fouet de cuir",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "serpe-antique",
+    "nom": "Serpe antique",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-leger-gobelin",
+    "nom": "Marteau léger gobelin",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "gourdin-orc",
+    "nom": "Gourdin orc",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "gourdin-de-torture",
+    "nom": "Gourdin de torture",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "marteau-leger-gnome",
+    "nom": "Marteau léger gnome",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fouet-cloute",
+    "nom": "Fouet clouté",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fouet-orc",
+    "nom": "Fouet orc",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "serpe-d-or",
+    "nom": "Serpe d’or",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-leger-nain",
+    "nom": "Marteau léger nain",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "gourdin-d-assassin",
+    "nom": "Gourdin d’assassin",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "gourdin-antique",
+    "nom": "Gourdin antique",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "marteau-leger-de-guerre",
+    "nom": "Marteau léger de guerre",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "fouet-de-torture",
+    "nom": "Fouet de torture",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "hachette-commune",
+    "nom": "Hachette commune",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "masse-d-armes-commun",
+    "nom": "Masse d’armes commun",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "epee-courte-commune",
+    "nom": "Épée courte commune",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "trident-commun",
+    "nom": "Trident commun",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "hachette-naine",
+    "nom": "Hachette naine",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "masse-d-armes-robuste",
+    "nom": "Masse d’armes robuste",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "epee-d-assassin",
+    "nom": "Épée d’assassin",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "trident-de-bronze",
+    "nom": "Trident de bronze",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "trident-orc",
+    "nom": "Trident orc",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "epee-courte-orc",
+    "nom": "Épée courte orc",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "masse-de-la-justice",
+    "nom": "Masse de la justice",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "hachette-elfe",
+    "nom": "Hachette elfe",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "hachette-orc",
+    "nom": "Hachette orc",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "masse-d-armes-antique",
+    "nom": "Masse d’armes antique",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-courte-de-l-ombre",
+    "nom": "Épée courte de l’ombre",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "trident-elfe",
+    "nom": "Trident elfe",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "trident-de-guerre",
+    "nom": "Trident de guerre",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-courte-elfe",
+    "nom": "Épée courte elfe",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "masse-d-armes-de-bronze",
+    "nom": "Masse d’armes de bronze",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hachette-ancienne",
+    "nom": "Hachette ancienne",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hachette-de-guerre",
+    "nom": "Hachette de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "masse-d-armes-de-guerre",
+    "nom": "Masse d’armes de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "epee-courte-de-guerre",
+    "nom": "Épée courte de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "trident-des-abysses",
+    "nom": "Trident des abysses",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "massue-commune",
+    "nom": "Massue commune",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "marteau-de-guerre-com",
+    "nom": "Marteau de guerre com.",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "morgenstern-commun",
+    "nom": "Morgenstern commun",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "hache-d-armes-commune",
+    "nom": "Hache d’armes commune",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "epee-longue-commune",
+    "nom": "Épée longue commune",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "fleau-d-armes-commun",
+    "nom": "Fléau d’armes commun",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "massue-naine",
+    "nom": "Massue naine",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "morgenstern-gnome",
+    "nom": "Morgenstern gnome",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-d-armes-antique",
+    "nom": "Hache d’armes antique",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-longue-rapide",
+    "nom": "Épée longue rapide",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-longue-robuste",
+    "nom": "Épée longue robuste",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "fleau-d-armes-gnome",
+    "nom": "Fléau d’armes gnome",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-de-guerre-nain",
+    "nom": "Marteau de guerre nain",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-de-guerre-celeste",
+    "nom": "Marteau de guerre céleste",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "fleau-d-armes-nain",
+    "nom": "Fléau d’armes nain",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-longue-de-survie",
+    "nom": "Épée longue de survie",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-d-armes-naine",
+    "nom": "Hache d’armes naine",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "morgenstern-nain",
+    "nom": "Morgenstern nain",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "massue-cloutee",
+    "nom": "Massue cloutée",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "massue-orc",
+    "nom": "Massue orc",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "morgenstern-elfe",
+    "nom": "Morgenstern elfe",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-d-armes-elfe",
+    "nom": "Hache d’armes elfe",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-longue-de-chevalier",
+    "nom": "Épée longue de chevalier",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "fleau-d-armes-de-chevalier",
+    "nom": "Fléau d’armes de chevalier",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-de-guerre-gnome",
+    "nom": "Marteau de guerre gnome",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "marteau-de-guerre-orc",
+    "nom": "Marteau de guerre orc",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "fleau-d-armes-orc",
+    "nom": "Fléau d’armes orc",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-longue-orc",
+    "nom": "Épée longue orc",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-d-armes-orc",
+    "nom": "Hache d’armes orc",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "morgenstern-orc",
+    "nom": "Morgenstern orc",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "massue-antique",
+    "nom": "Massue antique",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "massue-de-guerre",
+    "nom": "Massue de guerre",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "marteau-de-guerre-antique",
+    "nom": "Marteau de guerre antique",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "morgenstern-de-guerre",
+    "nom": "Morgenstern de guerre",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "hache-d-armes-de-guerre",
+    "nom": "Hache d’armes de guerre",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "epee-longue-elfe",
+    "nom": "Épée longue elfe",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "fleau-d-armes-de-guerre",
+    "nom": "Fléau d’armes de guerre",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "glaive-commun",
+    "nom": "Glaive commun",
+    "formule": "5D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "glaive-gobelin",
+    "nom": "Glaive gobelin",
+    "formule": "5D20+1D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "glaive-gnome",
+    "nom": "Glaive gnome",
+    "formule": "5D20+3D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "glaive-du-nord",
+    "nom": "Glaive du nord",
+    "formule": "5D20+4D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "glaive-elfe",
+    "nom": "Glaive elfe",
+    "formule": "5D20+5D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "glaive-de-guerre",
+    "nom": "Glaive de guerre",
+    "formule": "5D20+7D10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-com",
+    "nom": "Épée à deux mains com.",
+    "formule": "6D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "hache-a-deux-mains-com",
+    "nom": "Hache à deux mains com.",
+    "formule": "6D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "lance-d-arcon-commune",
+    "nom": "Lance d’arçon commune",
+    "formule": "6D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "maillet-commun",
+    "nom": "Maillet commun",
+    "formule": "6D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-naine",
+    "nom": "Épée à deux mains naine",
+    "formule": "6D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "hache-a-deux-mains-naine",
+    "nom": "Hache à deux mains naine",
+    "formule": "6D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "lance-d-arcon-orc",
+    "nom": "Lance d’arçon orc",
+    "formule": "6D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "maillet-de-chevalier",
+    "nom": "Maillet de chevalier",
+    "formule": "6D20+3D6",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "lance-d-arcon-percemonts",
+    "nom": "Lance d’arçon PerceMonts",
+    "formule": "6D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "maillet-elfe",
+    "nom": "Maillet elfe",
+    "formule": "6D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-des-braves",
+    "nom": "Hache des braves",
+    "formule": "6D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-antique",
+    "nom": "Épée à deux mains antique",
+    "formule": "6D20+3D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-orc",
+    "nom": "Épée à deux mains orc",
+    "formule": "6D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-a-deux-mains-orc",
+    "nom": "Hache à deux mains orc",
+    "formule": "6D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-d-arcon-elfe",
+    "nom": "Lance d’arçon elfe",
+    "formule": "6D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "maillet-orc",
+    "nom": "Maillet orc",
+    "formule": "6D20+4D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-a-deux-mains-guer",
+    "nom": "Hache à deux mains guer.",
+    "formule": "6D20+6D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-d-arcon-de-chevalier",
+    "nom": "Lance d’arçon de chevalier",
+    "formule": "6D20+6D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "maillet-gnome",
+    "nom": "Maillet gnome",
+    "formule": "6D20+6D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-elfe",
+    "nom": "Épée à deux mains elfe",
+    "formule": "6D20+6D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "epee-a-deux-mains-guerre",
+    "nom": "Épée à deux mains guerre",
+    "formule": "6D20+7D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-du-gardien",
+    "nom": "Hache du Gardien",
+    "formule": "6D20+7D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-tranchemonts",
+    "nom": "Hache Tranchemonts",
+    "formule": "6D20+7D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-d-arcon-de-guerre",
+    "nom": "Lance d’arçon de guerre",
+    "formule": "6D20+7D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "maillet-de-guerre",
+    "nom": "Maillet de guerre",
+    "formule": "6D20+7D12",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hache-berserker",
+    "nom": "Hache Berserker",
+    "formule": "6D20+10",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "belier",
+    "nom": "Bélier",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "lame-de-feu",
+    "nom": "Lame de feu",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Force",
+    "des": {
+      "D20": 20
+    }
+  }
+]

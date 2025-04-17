@@ -1,167 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculs D&D</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="script.js" type="module" defer></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Calcul D&D</h1>
-        <nav>
-            <ul>
-                <li><a class="visited home" href="Aodhan.html">Aodhan</a></li>
-                <li><a href="mival.html">Mival</a></li>
-                <li><a href="pavel.html">Pavel</a></li>
-                <li><a href="thorek.html">Thorek</a></li>
-                <li><a href="zinok.html">Zinok</a></li>
-                <li><a href="adversaires.html">Ennemies</a></li>
-            </ul>
-        </nav>
+      <h1>Calcul D&D</h1>
+      <nav>
+        <ul>
+          <li><a class="visited home" href="Aodhan.html">Aodhan</a></li>
+          <li><a href="mival.html">Mival</a></li>
+          <li><a href="pavel.html">Pavel</a></li>
+          <li><a href="thorek.html">Thorek</a></li>
+          <li><a href="zinok.html">Zinok</a></li>
+          <li><a href="adversaires.html">Ennemies</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="main">
-        <aside>
-            <img src="Personnages/Aodhan.JPG" alt="Aodhan" />
-            <div style="display: flex; flex-direction: column; justify-content: space-between; flex: 1 0 0; align-self: stretch;">
-                <div class="character-info">
-                    <h2>Aodhan Malowi</h2>
-                    <p>Niveau : 6</p>
-                    <p id="sorts-restants">Sorts restants : 6</p>
-                    <div class="sorts-container" id="sorts-container">
-                        <div class="sort-circle"></div>
-                        <div class="sort-circle"></div>
-                        <div class="sort-circle"></div>
-                        <div class="sort-circle"></div>
-                        <div class="sort-circle"></div>
-                        <div class="sort-circle"></div>
-                    </div>
-                </div>
-                <button style="display: flex; width: 100%; justify-content: center;" id="reset-spells-perso">Restaurer les sorts du joueur</button>
+      <aside>
+        <img src="Personnages/Aodhan.JPG" alt="Aodhan" class="animate__animated animate__fadeIn" />
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1 0 0;
+            align-self: stretch;
+          "
+        >
+          <div class="character-info">
+            <h2>Aodhan Malowi</h2>
+            <p id="aodhan-force">Force :</p>
+            <p id="aodhan-dexterite">Dextérité :</p>
+            <p id="sorts-restants">Sorts restants : 6</p>
+            <div class="sorts-container" id="sorts-container">
+              <div class="sort-circle"></div>
+              <div class="sort-circle"></div>
+              <div class="sort-circle"></div>
+              <div class="sort-circle"></div>
+              <div class="sort-circle"></div>
+              <div class="sort-circle"></div>
             </div>
-        </aside>
-        <section>
-            <div class="attack-type">
-                <h2>Armes</h2>
-                <!-- Arc -->
-                <div class="tab-container">
-                    <div class="result-container">
-                        <h3>Arc long de chasse (4D20+2D12)</h3>
-                        <h3 class="result" id="result-arc">0</h3>
-                    </div>
-                    <div class="dice-container">
-                        <table>
-                            <tr>
-                                <td class="cell" data-weapon="arc" data-dice="D20">1</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">2</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">3</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">4</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">5</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">6</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">7</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">8</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">9</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">10</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">11</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">12</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">13</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">14</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">15</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">16</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">17</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">18</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">19</td>
-                                <td class="cell" data-weapon="arc" data-dice="D20">20</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="dice-container">
-                        <table>
-                            <tr>
-                                <td class="cell" data-weapon="arc" data-dice="D12">1</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">2</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">3</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">4</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">5</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">6</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">7</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">8</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">9</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">10</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">11</td>
-                                <td class="cell" data-weapon="arc" data-dice="D12">12</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+          </div>
+          <button id="reset-spells-perso">Restaurer les sorts</button>
+        </div>
+      </aside>
 
-                <!-- Epée -->
-                <div class="tab-container">
-                    <div class="result-container">
-                        <h3>Épée longue (3D10+20)</h3>
-                        <h3 class="result" id="result-epee">0</h3>
-                    </div>
-                    <div class="dice-container">
-                        <table>
-                            <tr>
-                                <td class="cell" data-weapon="epee" data-dice="D10">1</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">2</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">3</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">4</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">5</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">6</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">7</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">8</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">9</td>
-                                <td class="cell" data-weapon="epee" data-dice="D10">10</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <section class="animate__animated animate__fadeIn">
+        <div class="attack-type">
+          <h2>Armes</h2>
+          <!-- Les tableaux d'armes seront générés dynamiquement -->
+        </div>
 
-            <div class="attack-type">
-                <h2>Sorts</h2>
-                <!-- Sorts -->
-                <div class="tab-container">
-                    <div class="result-container">
-                        <h3>Boule de feu (4D6+25)</h3>
-                        <h3 class="result" id="result-boule-de-feu">0</h3>
-                    </div>
-                    <div class="dice-container">
-                        <table>
-                            <tr>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">1</td>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">2</td>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">3</td>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">4</td>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">5</td>
-                                <td class="cell" data-spell="boule-de-feu" data-dice="D6">6</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-        </section>
+        <div class="attack-type">
+          <h2>Sorts</h2>
+          <!-- Les tableaux de sorts seront générés dynamiquement -->
+        </div>
+      </section>
     </div>
-    </div>
-
 
     <footer>
-        <div class="buttons-container">
-            <button id="critique-btn">Coup critique</button>
-            <button id="reset-btn">Réinitialiser</button>
+      <div class="buttons-container">
+        <button id="critique-btn">Coup critique</button>
+        <button id="reset-btn">Réinitialiser</button>
+      </div>
+      <div class="total-container">
+        <p>Total dégâts</p>
+        <div class="total">
+          <h2><span id="resultat">0</span></h2>
         </div>
-        <div class="total-container">
-            <p>Total dégâts</p>
-            <div class="total">
-                <h2><span id="resultat">0</span></h2>
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

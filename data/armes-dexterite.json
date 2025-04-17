@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "dague-rouillee",
+    "nom": "Dague rouillée",
+    "formule": "1D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "serpe-commune",
+    "nom": "Serpe commune",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "dague-commune",
+    "nom": "Dague commune",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "flechette-de-bois",
+    "nom": "Fléchette de bois",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "fronde-commune",
+    "nom": "Fronde commune",
+    "formule": "2D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "serpe-de-cuivre",
+    "nom": "Serpe de cuivre",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "dague-vipere",
+    "nom": "Dague Vipère",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "flechette-de-cuivre",
+    "nom": "Fléchette de cuivre",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fronde-de-cuir-sup",
+    "nom": "Fronde de cuir sup.",
+    "formule": "2D20+1D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fronde-tieffline",
+    "nom": "Fronde tieffline",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "flechette-d-etain",
+    "nom": "Fléchette d’étain",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "dague-de-cuivre",
+    "nom": "Dague de cuivre",
+    "formule": "2D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "serpe-druidique-inf",
+    "nom": "Serpe druidique inf.",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "dague-des-ombres",
+    "nom": "Dague des Ombres",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "dague-ph-nix",
+    "nom": "Dague Phénix",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "crochet-agile",
+    "nom": "Crochet agile",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "dague-de-givre",
+    "nom": "Dague de givre",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "flechette-de-fer",
+    "nom": "Fléchette de fer",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fronde-orc",
+    "nom": "Fronde orc",
+    "formule": "2D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "fronde-naine",
+    "nom": "Fronde naine",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "flechette-d-argent",
+    "nom": "Fléchette d’argent",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "dague-tra-tresse",
+    "nom": "Dague traîtresse",
+    "formule": "2D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "serpe-druidique-sup",
+    "nom": "Serpe druidique sup.",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "dague-de-guerre",
+    "nom": "Dague de guerre",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "flechette-d-or",
+    "nom": "Fléchette d’or",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "fronde-de-guerre",
+    "nom": "Fronde de guerre",
+    "formule": "2D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arc-court-commun",
+    "nom": "Arc court commun",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arc-court-rapide",
+    "nom": "Arc court rapide",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "baton-commun",
+    "nom": "Bâton commun",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "javeline-commune",
+    "nom": "Javeline commune",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "lance-commune",
+    "nom": "Lance commune",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "cimeterre-commune",
+    "nom": "Cimeterre commune",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arbalete-de-poing-com",
+    "nom": "Arbalète de poing com.",
+    "formule": "3D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "baton-pineux",
+    "nom": "Bâton épineux",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "javeline-de-garde",
+    "nom": "Javeline de garde",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "cimeterre-clair",
+    "nom": "Cimeterre éclair",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arbalete-de-poing-elfe",
+    "nom": "Arbalète de poing elfe",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-gardienne",
+    "nom": "Lance gardienne",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arc-court-gobelin",
+    "nom": "Arc court gobelin",
+    "formule": "3D20+1D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arc-court-orc",
+    "nom": "Arc court orc",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "lance-pine",
+    "nom": "Lance épine",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "arbalete-de-poing-du-nord",
+    "nom": "Arbalète de poing du nord",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "cimeterre-fin",
+    "nom": "Cimeterre fin",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "javeline-gobelin",
+    "nom": "Javeline gobelin",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "b-ton-clout",
+    "nom": "Bâton clouté",
+    "formule": "3D20+3D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "b-ton-taill",
+    "nom": "Bâton taillé",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "javeline-elfe",
+    "nom": "Javeline elfe",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "cimeterre-du-d-sert",
+    "nom": "Cimeterre du désert",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-de-poing-gnome",
+    "nom": "Arbalète de poing gnome",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-orc",
+    "nom": "Lance orc",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-court-elfe",
+    "nom": "Arc court elfe",
+    "formule": "3D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-court-chasseur",
+    "nom": "Arc court chasseur",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-de-poing-naine",
+    "nom": "Arbalète de poing naine",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "cimeterre-elfe",
+    "nom": "Cimeterre elfe",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-ancienne",
+    "nom": "Lance ancienne",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "javeline-des-anciens",
+    "nom": "Javeline des anciens",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "b-ton-des-anciens",
+    "nom": "Bâton des anciens",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "b-ton-de-combat",
+    "nom": "Bâton de combat",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-court-precis",
+    "nom": "Arc court précis",
+    "formule": "3D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-court-de-guerre",
+    "nom": "Arc court de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "javeline-de-guerre",
+    "nom": "Javeline de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "lance-de-guerre",
+    "nom": "Lance de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "cimeterre-de-guerre",
+    "nom": "Cimeterre de guerre",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "arbalete-de-poing-de-guer",
+    "nom": "Arbalète de poing de guer.",
+    "formule": "3D20+7D6",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D6": 6
+    }
+  },
+  {
+    "id": "arbalete-legere-commune",
+    "nom": "Arbalète légère commune",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arbalete-legere-rapide",
+    "nom": "Arbalète légère rapide",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "rapiere-commune",
+    "nom": "Rapière commune",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "pic-de-guerre",
+    "nom": "Pic de guerre",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "pic-commun",
+    "nom": "Pic commun",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arc-long-commun",
+    "nom": "Arc long commun",
+    "formule": "4D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arbalete-legere-de-voleur",
+    "nom": "Arbalète légère de voleur",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "rapiere-fine",
+    "nom": "Rapière fine",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-long-du-nord",
+    "nom": "Arc long du nord",
+    "formule": "4D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-long-de-chasse",
+    "nom": "Arc long de chasse",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "pic-de-l-claireur",
+    "nom": "Pic de l’éclaireur",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "rapiere-gnome",
+    "nom": "Rapière gnome",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-legere-elfe",
+    "nom": "Arbalète légère elfe",
+    "formule": "4D20+2D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-legere-chasseur",
+    "nom": "Arbalète légère chasseur",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-legere-precision",
+    "nom": "Arbalète légère précision",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "rapiere-elfe",
+    "nom": "Rapière elfe",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-long-percant",
+    "nom": "Arc long perçant",
+    "formule": "4D20+3D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-long-du-faucon",
+    "nom": "Arc long du faucon",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arc-long-sylvestre",
+    "nom": "Arc long Sylvestre",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "rapiere-de-guerre",
+    "nom": "Rapière de guerre",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-legere-gnome",
+    "nom": "Arbalète légère gnome",
+    "formule": "4D20+4D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-legere-de-guerre",
+    "nom": "Arbalète légère de guerre",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "rapiere-antique",
+    "nom": "Rapière antique",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "arc-long-de-lumi-re",
+    "nom": "Arc long de lumière",
+    "formule": "4D20+7D8",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D8": 8
+    }
+  },
+  {
+    "id": "hallebarde-commune",
+    "nom": "Hallebarde commune",
+    "formule": "5D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "lance-de-garde",
+    "nom": "Lance de garde",
+    "formule": "5D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "arbalete-lourde-commune",
+    "nom": "Arbalète lourde commune",
+    "formule": "5D20",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20
+    }
+  },
+  {
+    "id": "pointe-noire",
+    "nom": "Pointe Noire",
+    "formule": "5D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hallebarde-de-garde",
+    "nom": "Hallebarde de garde",
+    "formule": "5D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-lourde-elfe",
+    "nom": "Arbalète lourde elfe",
+    "formule": "5D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "lance-temp-te",
+    "nom": "Lance tempête",
+    "formule": "5D20+1D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hallebarde-elfe",
+    "nom": "Hallebarde elfe",
+    "formule": "5D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-du-d-sert",
+    "nom": "Lance du désert",
+    "formule": "5D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-d-pinepourfendeur",
+    "nom": "Lance d’épinepourfendeur",
+    "formule": "5D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arbalete-lourde-orc",
+    "nom": "Arbalète lourde orc",
+    "formule": "5D20+3D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "hallebarde-orc",
+    "nom": "Hallebarde orc",
+    "formule": "5D20+4D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-de-culth",
+    "nom": "Lance de Culth",
+    "formule": "5D20+4D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arbalete-lourde-naine",
+    "nom": "Arbalète lourde naine",
+    "formule": "5D20+4D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-de-l-ombre",
+    "nom": "Lance de l’ombre",
+    "formule": "5D20+5D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "arbalete-lourde-gnome",
+    "nom": "Arbalète lourde gnome",
+    "formule": "5D20+5D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hallebarde-gnome",
+    "nom": "Hallebarde gnome",
+    "formule": "5D20+5D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  },
+  {
+    "id": "hallebarde-de-guerre",
+    "nom": "Hallebarde de guerre",
+    "formule": "5D20+7D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "arbalete-lourde-de-guerre",
+    "nom": "Arbalète lourde de guerre",
+    "formule": "5D20+7D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-c-leste",
+    "nom": "Lance céleste",
+    "formule": "5D20+7D10",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D10": 10
+    }
+  },
+  {
+    "id": "lance-des-toiles",
+    "nom": "Lance des étoiles",
+    "formule": "5D20+7D12",
+    "type": "arme",
+    "carac": "Dextérité",
+    "des": {
+      "D20": 20,
+      "D12": 12
+    }
+  }
+]
